@@ -1,4 +1,4 @@
-const endpointCat = "http://168.138.134.141:8080/api/Category/all";
+const endpointCat = "http://152.67.54.209:8080/api/Category/all";
 const etpCat = document.getElementById("informacionCat");
 /** capturar bones de categoria */
 const bmostrarCat = document.getElementById("bmostrarCat");
@@ -27,7 +27,7 @@ function peticiongetCat() {
 function peticionpostCat() {
     $.ajax({
       method: "POST",
-      url: "http://168.138.134.141:8080/api/Category/save",
+      url: "http://152.67.54.209:8080/api/Category/save",
       data: capturarcategoria(),
       datatype: "json",
       contentType: "application/json",

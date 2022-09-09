@@ -1,4 +1,4 @@
-const endpointMes = "http://168.138.134.141:8080/api/Message/all";
+const endpointMes = "http://152.67.54.209:8080/api/Message/all";
 const etpMes = document.getElementById("informacionMes");
 /** capturar bones decliente */
 const bmostrarMes = document.getElementById("bmostrarMes");
@@ -25,7 +25,7 @@ function peticiongetMes() {
 function peticionpostMes() {
   $.ajax({
     method: "POST",
-    url: "http://168.138.134.141:8080/api/Message/save",
+    url: "http://152.67.54.209:8080/api/Message/save",
     data: capturarMensajes(),
     datatype: "json",
     contentType: "application/json",

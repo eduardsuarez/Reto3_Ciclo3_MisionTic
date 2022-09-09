@@ -1,4 +1,4 @@
-const endpointRes = "http://168.138.134.141:8080/api/Reservation/all";
+const endpointRes = "http://152.67.54.209:8080/api/Reservation/all";
 const etpRes = document.getElementById("informacionRes");
 /** capturar bones decliente */
 const bmostrarRes = document.getElementById("bmostrarRes");
@@ -26,7 +26,7 @@ function peticiongetRes() {
 function peticionpostRes() {
   $.ajax({
     method: "POST",
-    url: "http://168.138.134.141:8080/api/Reservation/save",
+    url: "http://152.67.54.209:8080/api/Reservation/save",
     data: capturarReservas(),
     datatype: "json",
     contentType: "application/json",

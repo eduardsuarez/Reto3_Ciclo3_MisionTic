@@ -1,4 +1,4 @@
-const endpointAdm = "http://168.138.134.141:8080/api/Admin/all";
+const endpointAdm = "http://152.67.54.209:8080/api/Admin/all";
 const etpAdm = document.getElementById("informacionAdm");
 /** capturar bones decliente */
 const bmostrarAdm = document.getElementById("bmostrarAdm");
@@ -26,7 +26,7 @@ function peticiongetAdm() {
 function peticionpostAdm() {
   $.ajax({
     method: "POST",
-    url: "http://168.138.134.141:8080/api/Admin/save",
+    url: "http://152.67.54.209:8080/api/Admin/save",
     data: capturarAdministradores(),
     datatype: "json",
     contentType: "application/json",

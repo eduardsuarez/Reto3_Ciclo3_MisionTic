@@ -1,4 +1,4 @@
-const endpointCli = "http://168.138.134.141:8080/api/Client/all";
+const endpointCli = "http://152.67.54.209:8080/api/Client/all";
 const etpCli = document.getElementById("informacionCli");
 /** capturar bones decliente */
 const bmostrarCli = document.getElementById("bmostrarCli");
@@ -27,7 +27,7 @@ function peticiongetCli() {
 function peticionpostCli() {
   $.ajax({
     method: "POST",
-    url: "http://168.138.134.141:8080/api/Client/save",
+    url: "http://152.67.54.209:8080/api/Client/save",
     data: capturarClientes(),
     datatype: "json",
     contentType: "application/json",

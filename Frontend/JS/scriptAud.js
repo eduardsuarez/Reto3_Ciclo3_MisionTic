@@ -1,4 +1,4 @@
-const endpointAud = "http://168.138.134.141:8080/api/Audience/all";
+const endpointAud = "http://152.67.54.209:8080/api/Audience/all";
 const etp = document.getElementById("informacionAud");
 /** capturar bones de auditorio */
 const bmostrarAud = document.getElementById("bmostrarAud");
@@ -29,7 +29,7 @@ function peticiongetAud() {
 function peticionpostAud() {
   $.ajax({
     method: "POST",
-    url: "http://168.138.134.141:8080/api/Audience/save",
+    url: "http://152.67.54.209:8080/api/Audience/save",
     data: capturarAuditorio(),
     datatype: "json",
     contentType: "application/json",
